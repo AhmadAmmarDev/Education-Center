@@ -24,5 +24,10 @@ namespace Education_Center
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Test commit process");
+        }
     }
 }
